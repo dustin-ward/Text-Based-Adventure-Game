@@ -1,0 +1,61 @@
+===========================================================================
+
+███████╗███████╗ █████╗ ███████╗██╗ ██████╗██╗  ██╗
+██╔════╝██╔════╝██╔══██╗██╔════╝██║██╔════╝██║ ██╔╝
+███████╗█████╗  ███████║███████╗██║██║     █████╔╝
+╚════██║██╔══╝  ██╔══██║╚════██║██║██║     ██╔═██╗
+███████║███████╗██║  ██║███████║██║╚██████╗██║  ██╗
+╚══════╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝ ╚═════╝╚═╝  ╚═╝
+
+===========================================================================
+  _   _                         __  __                                   _
+ | | | |  ___    ___   _ __    |  \/  |   __ _   _ __    _   _    __ _  | |
+ | | | | / __|  / _ \ | '__|   | |\/| |  / _` | | '_ \  | | | |  / _` | | |
+ | |_| | \__ \ |  __/ | |      | |  | | | (_| | | | | | | |_| | | (_| | | |
+  \___/  |___/  \___| |_|      |_|  |_|  \__,_| |_| |_|  \__,_|  \__,_| |_|
+
+===========================================================================
+ALL INPUT MUST BE LOWERCASE (There are no spaces in item names)
+
+Use <item> - Use a specific item
+
+List (rooms, items, npcs, doors) - List out all the available stuff
+
+Examine <thing> - Get a closer look at something
+
+Goto <room> - Go to a room
+
+Pickup <item> - Add an item from the world to your inventory
+
+Save <filename> - Saves a game
+
+Load <filename - Loads a game
+
+Clear screen - clears the screen
+
+Quit game - quit the game
+
+
+============================================================================
+
+	SeaSick is a command line experience set on a cargo ship in the 
+middle of the Atlantic ocean. You play as the captain that has finally 
+regained consciousness after an incident involving an intense storm. The 
+storm appears to have damaged your ship, and the crew has mysteriously 
+vanished. After some investigation you learn that pirates have taken 
+advantage of the situation and have boarded your ship to steal your valuable 
+cargo. Your objective is to stop the pirates, and save the crew that they 
+have held captive.
+
+	The player will use a command line interface to progress through a 
+series of rooms towards their objective. Along the way, the player will 
+encounter a variety of items and NPC’s that serve to track progress through 
+challenges and puzzles. Some NPC’c will be crew members that require a 
+certain item to progress, and others will be pirates that engage in combat 
+with the player. There is also a temperature system that will challenge the 
+player to find items and rooms to keep warm. If the player fails to stay 
+warm, they will lose the game. If a combat scenario is lost at any point, 
+it will also cause the player to lose. The game is won by successfully 
+defeating all the enemies on the ship, and saving your precious cargo.
+
+============================================================================
