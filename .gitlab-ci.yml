@@ -1,0 +1,27 @@
+build:
+   stage: build
+   script:
+      - make testProject
+   artifacts:
+      paths:
+         - testProject
+
+test:
+   stage: test
+   script:
+      - testProject
+
+
+pages:
+   stage: deploy
+   dependencies:
+      - test
+   script:
+      - make memcheck
+      - make coverage
+      - make static
+      - make style
+   artifacts:
+      paths:
+         - coverage
+      expire_in: 14 days
